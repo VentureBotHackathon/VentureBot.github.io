@@ -1,0 +1,83 @@
+*{margin:0;}
+
+body{background-color:#c83315;
+     font-family: Arial, Helvetica, sans-serif;}
+
+header{background-color:#c83315;}
+   
+
+main{background-color:#2e3732;
+    margin-top:10px;}
+
+#wrapper{}
+
+
+
+
+/*nav bar*/
+
+nav ul{   
+     display: flex;
+     list-style-type: none;
+     justify-content: center;
+     background-color: #2e3732;
+    }
+
+      
+  nav li {
+        float: left;
+      }
+      
+    nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 1.1em;
+      }
+      
+    nav li a:hover {
+        background-color: #c83315;
+      }
+
+    /*intro paragraph*/
+    #intro{margin-top:45px;
+        font-family: 'serious1', sans-serif;}
+            
+     @import url('https://fonts.cdnfonts.com/css/serious');
+   
+    /*logo*/
+    img{border-radius: 50%;
+        width:100%;
+    }
+
+    /*main*/
+    main h2{color:#c83315;}
+    main h3{color:#c83315;}
+
+    /*class to center things*/
+    .center {
+        text-align: center;
+      }
+
+      /*space all items in main*/
+      main h2, main h3{margin-top:15px;
+                        margin-bottom:10px;}
+
+
+ /* for screens greater then 480px */
+
+ @media screen and (min-width: 480px) {
+    img{width:30% }
+    body{font-size:1.5em;}
+          
+   #intro2{display:flex;
+            }
+            
+  #logo{margin-right:10%;}
+            
+
+   
+    
+}       
