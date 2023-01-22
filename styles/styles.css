@@ -1,5 +1,5 @@
 *{margin:0;}
-
+*{font-family: 'serious1', sans-serif;}
 body{background-color:#c83315;
      font-family: Arial, Helvetica, sans-serif;}
 
@@ -59,25 +59,92 @@ nav ul{
     /*class to center things*/
     .center {
         text-align: center;
+        padding: 5%;
       }
 
       /*space all items in main*/
-      main h2, main h3{margin-top:15px;
-                        margin-bottom:10px;}
+      main h2, main h3{
+        margin-top:15px;
+        margin-bottom:10px;
+      }
+    .small {
+      padding: 3%;
+    }
 
 
  /* for screens greater then 480px */
 
  @media screen and (min-width: 480px) {
-    img{width:30% }
-    body{font-size:1.5em;}
+    img{width:30%; padding:5%}
+    body{font-size:1.9em;}
           
-   #intro2{display:flex;
-            }
+   #intro2{display:flex; padding: 0 }
+   .pain {padding-top:10%}
             
-  #logo{margin-right:10%;}
-            
+    #logo{margin-right:10%;}
+  .center {
+     padding: 5%;
+     
+  }
+  #intro {
+    margin:0;
+  }
+
+  .small {
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+  
+  #features {
+    background-color:rgb(244, 226, 205);
+    margin-left:0;
+    margin-right:0;
+  }
+
+  #paddingless {
+    padding-left:0;
+    padding-right:0;
+    padding-top:0;
+  }
 
    
     
 }       
+
+
+/*discord button inv */
+.inviteButton {
+  background-color:#c83315;
+  opacity: 1;
+  transition: 0.3s;
+  
+}
+
+  .inviteButton:hover{
+      opacity: 0.9;
+  }
+
+  .inviteButton:active{
+      background-color:#df3716;
+  }
+
+  .button-flex{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+button {
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 23px;
+  font-family: 'serious1', sans-serif;
+  padding: 7.5px 30px;
+  min-width: 200px;
+  min-height: 50px;
+}

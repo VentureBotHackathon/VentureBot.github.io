@@ -25,24 +25,26 @@
                 <h1 class="center">Venture Bot</h1>
                 <div id="intro2">
                     <img id="logo" src="images/VentureBot.png" alt="VentureBot Logo">
-                    <h2 class="center">A Discord bot that will take you <br> and your server on a joint adventure.</h2>
+                    <h2 class="pain">A Discord bot that will take you <br> and your server on a joint adventure.</h2>
                 </div>
             </div>
         </header>
 
-        <main class="center">
+        <main class="center" id="paddingless">
             
-            <div id="invite">
-                <h2>Download</h2>
-                <a>Discord link can go here</a>
+            <div id="invite" class="small">
+                <h2>Invite</h2>
+                <div class="button-flex">
+                    <button type="button" class="inviteButton" onclick="window.open('https://discord.com/api/oauth2/authorize?client_id=1066426495502913688&permissions=2048&scope=bot%20applications.commands', '_blank')">Invite</button>
+                      </div>
             </div>
 
-            <div id="features">
-                <h2>Voting based story</h2>
-                    <p>VentureBot utilizes discords react features to let your server users cast their votes.</p>
+            <div id="features" class="small">
+                <h2>A story you choose!</h2>
+                    <p>VentureBot utilizes discords react features to let you choose your own path.</p>
             </div>
 
-            <div id="commands">
+            <div id="commands" class="small">
                 <h2>Commands</h2>
                     <h3>/Story</h3>
                         <p>/Story let's the user choose the story to play through. For now we only have the NW Hacks story</p>
